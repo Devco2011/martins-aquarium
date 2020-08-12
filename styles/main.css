@@ -1,0 +1,42 @@
+body {
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#fishTank {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1em;
+    border: 5px solid;
+}
+
+.fishlist {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.fishlist-card {
+    background-color: chartreuse;
+    margin: 1em;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+
+
+}
+
+.card-image {
+
+
+}
+
+.fish-image {
+
+}
+
+aside {
+
+}
