@@ -6,13 +6,13 @@ import { Tip } from "./tip.js"
 
 export const TipList = () => {
 
-    const contentElement = document.querySelector("aside")
+    const contentElement = document.querySelector(".tiplist")
     const tips = useTip()
 
     // Generate all of the HTML for all of the fish
-    let fishHTMLRepresentations = ""
+    let tipHTMLRepresentations = ""
     for (const tip of tips) {
-        fishHTMLRepresentations += Tip(tip)
+        tipHTMLRepresentations += Tip(tip)
 
         /*
             Invoke the Fish component function
@@ -24,8 +24,8 @@ export const TipList = () => {
 
         // Add a section, and all of the fish to the DOM
         contentElement.innerHTML += `
-        <article class="fishList">
+        
             ${tipHTMLRepresentations}
-        </article>
+       
     `
 }
