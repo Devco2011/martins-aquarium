@@ -3,7 +3,7 @@ export const Tip = (tipObj) => {
     <div class="tiplist">
         
    <ul>
-       <li>TIP: ${tipObj.tip}</li>
+       <li> ${tipObj.tip}</li>
        
        
    </ul>
