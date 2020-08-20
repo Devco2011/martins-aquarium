@@ -11,5 +11,5 @@ const tipsCollection = [
 
 
 export const useTip = () => {
-    return tipCollection.slice()
+    return tipsCollection.slice()
 }
